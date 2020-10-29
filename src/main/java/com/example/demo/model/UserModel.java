@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 
-public class User {
+public class UserModel {
     private Long id;
     private String name;
     private Integer age;

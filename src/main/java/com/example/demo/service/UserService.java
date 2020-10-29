@@ -16,4 +16,8 @@ public class UserService {
     public void insert(User user) {
         userMapper.insert(user.getName(), user.getAge());
     }
+
+    public void delete(Long id){
+        userMapper.delete(id);
+    }
 }

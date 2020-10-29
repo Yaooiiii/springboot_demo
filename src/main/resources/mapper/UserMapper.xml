@@ -12,4 +12,8 @@
     <insert id="insert">
         INSERT INTO t_user(NAME, AGE) VALUES(#{name}, #{age})
     </insert>
+
+    <delete id="delete">
+        DELETE FROM t_user WHERE id = #{id}
+    </delete>
 </mapper>
